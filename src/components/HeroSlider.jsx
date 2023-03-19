@@ -47,7 +47,7 @@ const HeroSlider = () => {
 						<div
 							className="h-[100vh] bg-center bg-cover"
 							style={{ backgroundImage: `url(${item.bgImg})` }}>
-							<div className="slide-content bg-black/75 h-[100vh] w-full text-white flex flex-col items-start justify-center px-12">
+							<div className="slide-content bg-black/75 h-[100vh] w-full text-white flex flex-col items-start justify-center px-8 pt-12">
 								<h3 className="font-bold text-[60px] leading-[68px] mb-4">{item.heading}</h3>
 								<p className="mb-4  text-[20px]">{item.text}</p>
 								<button className="bg-[#0dd71491] hover:bg-[#0dd71446] hover:scale-110 transform transition duration-500 px-10 py-2 font-bold rounded-sm mt-2">{item.btnText}</button>

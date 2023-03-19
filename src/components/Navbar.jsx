@@ -24,8 +24,8 @@ const Navbar = () => {
         {/*mobile Navbar*/}
         <div className={isOpen ?'bg-[#0dd71491] flex flex-col gap-4 w-[50%] xl:hidden h-[30%] px-4 py-8 text-white mt-8 cursor-pointer  transition-all ease-in duration-500 shadow-lg fixed top-9 left-[43%] items-center':' text-white transition-all ease-out duration-500 hidden'}>
             <a className='transition transform hover:translate-x-3' href="">Homepage</a>
-            <a className='transition transform hover:translate-x-3' href="">Pages</a>
             <a className='transition transform hover:translate-x-3' href="">Team</a>
+            <a className='transition transform hover:translate-x-3' href="">Matches</a>
             <a className='transition transform hover:translate-x-3' href="">Membership</a>
             <a className='transition transform hover:translate-x-3' href="">Contact Us</a>
         </div>
