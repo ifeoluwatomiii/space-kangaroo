@@ -9,15 +9,15 @@ import Cards from './Cards'
 
 const Popular = () => {
   return (
-    <div className='bg-[#1E0E22] py-12'>
-        <div className='py-4 px-4 container max-w-[1280px] mx-auto'>
+    <div className='bg-[#1E0E22] py-14 px-4'>
+        <div className='container max-w-[1280px] mx-auto'>
         <div>
-            <h4 className='text-[#0dd71491] font-bold mb-8 text px-2 py-4'>TOP GAMES</h4>
+            <h4 className='text-[#0dd71491] font-bold mb-4 text px-2 py-2'>TOP GAMES</h4>
         </div>
         <div className='flex justify-between items-start flex-col xl:flex-row px-2'>
-            <h2 className='font-bold text-3xl mb-8 text-white'>Most Popular</h2>
-            <p className='mb-8 text-white'>Check out our latest collection of games</p>
-            <button className="bg-[#0dd71491] hover:bg-[#0dd71446] hover:scale-110 transform transition duration-500 px-10 py-2 font-bold rounded-sm text-white mb-4">View All</button>
+            <h2 className='font-bold text-3xl mb-4 text-white'>Most Popular</h2>
+            <p className='mb-4 text-white'>Check out our latest collection of games</p>
+            <button className="bg-[#0dd71491] hover:bg-[#0dd71446] hover:scale-110 transform transition duration-500 px-10 py-2 font-bold rounded-sm text-white mb-6">View All</button>
         </div>
         <div>
            <Cards/>

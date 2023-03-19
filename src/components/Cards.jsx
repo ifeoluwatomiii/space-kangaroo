@@ -8,7 +8,7 @@ import snow from "../assets/snow.png";
 
 const Cards = () => {
 	return (
-		<div className="grid xl:grid-cols-6 grid-cols-2 xl:gap-5 px-4 py-20">
+		<div className="grid xl:grid-cols-6 grid-cols-2 xl:gap-5 py-6 px-2">
 			<div className="py-4 px-4">
 				<img
 					className="hover:scale-110 transform transition duration-500"
@@ -63,7 +63,7 @@ const Cards = () => {
 					src={bus}
 					alt=""
 				/>
-				<h4 className="font-bold text-xl text-white mt-4">Bus Stimulation</h4>
+				<h4 className="font-bold text-xl text-white mt-4">B-Stimulation</h4>
 				<p className="font-semibold text-white/50 text-sm mb-4 mt-4">$30</p>
 				<button className="bg-[#0dd71491] px-4 xl:px-8 py-2 font-bold rounded-sm text-white mb-4 hover:bg-[#0dd71446]">
 					Add to Cart

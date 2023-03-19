@@ -14,8 +14,8 @@ const Navbar = () => {
         </div>
         <div className=' gap-6 text-white hidden xl:flex grow xl:justify-end'>
             <a className='hover:text-[#0dd71491]' href="">Homepage</a>
-            <a className='hover:text-[#0dd71491]' href="">Pages</a>
             <a className='hover:text-[#0dd71491]' href="">Team</a>
+            <a className='hover:text-[#0dd71491]' href="">Matches</a>
             <a className='hover:text-[#0dd71491]' href="">Membership</a>
             <a className='hover:text-[#0dd71491]' href="">Contact Us</a>
             
