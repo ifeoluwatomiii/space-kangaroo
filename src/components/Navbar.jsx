@@ -3,6 +3,7 @@ import logo from '../assets/background.png'
 import {MdGamepad} from 'react-icons/md'
 import { useState } from 'react'
 import {VscClose} from 'react-icons/vsc'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(true)
@@ -10,14 +11,17 @@ const Navbar = () => {
   return (
     <div className='flex justify-between items-center py-4 px-8 min-h-[120px] mb-[-120px] absolute w-full z-30'>
         <div>
+          <Link to="/">
             <img className='w-[50%]' src={logo} alt="" />
+          </Link>
+            
         </div>
         <div className=' gap-6 text-white hidden xl:flex grow xl:justify-end'>
-            <a className='hover:text-[#0dd71491]' href="">Homepage</a>
-            <a className='hover:text-[#0dd71491]' href="">Team</a>
-            <a className='hover:text-[#0dd71491]' href="">Matches</a>
-            <a className='hover:text-[#0dd71491]' href="">Membership</a>
-            <a className='hover:text-[#0dd71491]' href="">Contact Us</a>
+            <Link className='hover:text-[#0dd71491]' to="/">Homepage</Link>
+            <Link className='hover:text-[#0dd71491]' to="/team">Team</Link>
+            <Link className='hover:text-[#0dd71491]' to="/matches">Matches</Link>
+            <Link className='hover:text-[#0dd71491]' to="/membership">Membership</Link>
+            <Link className='hover:text-[#0dd71491]' to="/contact">Contact Us</Link>
             
         </div>
 
