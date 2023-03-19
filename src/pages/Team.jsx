@@ -12,9 +12,9 @@ const Team = () => {
     <div className='bg-[#090B1A] px-2 py-2'>
         
         <div className='w-full'>
-            <img className='mt-[16%]' src={team} alt="" />
+            <img className='mt-[27%] xl:mt-2' src={team} alt="" />
         </div>
-        <div className='text-center py-20 px-2'>
+        <div className='text-center py-16 px-2'>
             <h3 className='font-bold text-3xl text-white mb-4'>Meet the <span className='text-[#0dd71491]'>Space Kangaroo</span> team!</h3>
             <p className='text-white'>Our online gaming platform is powered by a passionate and talented group of individuals who share a love for gaming and a mission to create amazing gaming experiences for players worldwide. Get to know us below:</p>
         </div>
