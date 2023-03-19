@@ -12,7 +12,7 @@ const Team = () => {
     <div className='bg-[#090B1A] px-2 py-2'>
         
         <div className='w-full'>
-            <img src={team} alt="" />
+            <img className='mt-[16%]' src={team} alt="" />
         </div>
         <div className='text-center py-20 px-2'>
             <h3 className='font-bold text-3xl text-white mb-4'>Meet the <span className='text-[#0dd71491]'>Space Kangaroo</span> team!</h3>
@@ -55,11 +55,11 @@ const Team = () => {
                 </div>
                 <div className='text-white xl:w-[60%]'>
                     <h3 className='font-bold font-xl mb-2'>Zick</h3>
-                    <p>Last but not least, we have Zick, our community manager. Zick is the voice <br /> of Space Kangaroo on social media and in our forums. <br /> He's responsible for engaging with our players and making sure that everyone feels heard and appreciated. <br /> Zick's dedication to our community is a big reason why <br /> we have such a loyal following.</p>
+                    <p>Then we have Zick, our community manager. He is the voice <br /> of Space Kangaroo on social media and in our forums. <br /> He's responsible for engaging with our players and making sure that everyone feels heard and appreciated. <br /> Zick's dedication to our community is a big reason why <br /> we have such a loyal following.</p>
                 </div>
             </div>
 
-            <div className='text-white px-4 text-center py-12'>
+            <div className='text-white px-4 '>
             <p>Together, our team works tirelessly to create and deliver amazing gaming experiences to players around the world. We're proud of what we've accomplished so far, and we're excited for what's to come.  Thank you for choosing Space Kangaroo!</p>
             </div>
         </div>
