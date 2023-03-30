@@ -6,7 +6,7 @@ import {VscClose} from 'react-icons/vsc'
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(true)
+  const [isOpen, setIsOpen] = useState(false)
 
   return (
     <div className='flex justify-between items-center py-4 px-8 min-h-[120px] mb-[-120px] absolute w-full z-30'>
