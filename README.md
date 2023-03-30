@@ -2,7 +2,7 @@ Space Kangaroo - Online Gaming Platform
 
 Space Kangaroo is an online gaming platform that allows users to play games and connect with other gamers from around the world. It is built using React, Tailwind CSS, and Vite. Axios was used to fetch data from an external API.
 
-Project to Demo:<https://space-kangaroo-ifemi27.vercel.app/>
+Project Demo:<https://space-kangaroo-ifemi27.vercel.app/>
 
 Getting Started To get started with Space Kangaroo, you will need to have Node.js and npm installed on your machine. Once you have those installed, you can follow these steps:
 
